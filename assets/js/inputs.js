@@ -1,7 +1,7 @@
 /**
  * Code de gestion du focus des champs de saisie
  */
-
+/*
 (function () {
 
     // Détection de valeur dans les champs de saisie
@@ -11,13 +11,13 @@
             if (this.value.trim() !== "") {
                 /* S'il a saisi une valeur, on ajoute la classe has-val à l'input 
                  pour empêcher que le libellé ne redescende */
-                this.classList.add('has-val');
-            }
+         ///       this.classList.add('has-val');
+           /* }
             else {
                 /* Sinon si le champ de saisie ne contient rien, 
                 on retire la classe has-val à l'input pour faire redescendre le libellé */
-                this.classList.remove('has-val');
-            }
-        })
-    })
-})();
+        ///        this.classList.remove('has-val');
+ //          }
+//        })
+//    })
+//})();
